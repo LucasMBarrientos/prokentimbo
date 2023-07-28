@@ -1,0 +1,83 @@
+.diapart{
+  background: #092B1D;
+  color: #fff;
+  font-size: 13px;
+  font-weight: 700;
+  text-align: center;
+}
+
+.goles {
+  font-size: 12.2px;
+  font-weight: 700;
+  background: #fff;
+  border-spacing: 0;
+  text-align: left;
+  -webkit-border-horizontal-spacing: 2px;
+  -webkit-border-vertical-spacing: 2px;
+}
+
+.posiciones{
+  font-size: .9em;
+  width: 380px;
+  text-align: center;
+  background: #797979;
+  & thead{
+    tr{
+      background: black;
+      color: white;
+    }
+    th {
+      font-size: 0.85em;
+    }
+  }
+
+  & tbody{
+    tr{
+      background: #90ee90;
+    }
+    td {
+      overflow: hidden;
+      text-overflow: clip;
+      white-space: nowrap;
+    }
+  }
+}
+
+.gamefin {
+  width: 15%;
+  background: #312d2c;
+  color: #fff;
+  font-size: 1em;
+  font-weight: 700;
+  text-shadow: 1px 1px 1px #000;
+}
+
+.gameT {
+  width: 30%;
+  background: #e5e5e5;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: clip;
+  line-height: 1.1em;
+
+  img {
+    width: 15px;
+  }
+
+  span {
+    font-size: 13.5px;
+    font-weight: 700;
+  }
+}
+
+.gameR {
+  width: 7%;
+  background: #fff;
+  font-size: 1.6em;
+  font-weight: 700;
+}
+
+.gameInfo {
+  width: 10%;
+  background: green;
+}

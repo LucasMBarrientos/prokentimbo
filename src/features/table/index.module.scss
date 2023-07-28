@@ -1,0 +1,41 @@
+.tablaseccion{
+  width: 380px;
+  float: left;
+}
+
+.titulotabla{
+  text-align: center;
+  font-size: 1em;
+  background: #00612d;
+  color: #fff;
+  border: 1px solid #000;
+  width: 100%;
+  text-shadow: 1px 1px 1px #000;
+}
+
+.posiciones{
+  font-size: .9em;
+  width: 380px;
+  text-align: center;
+  background: #797979;
+  & thead{
+    tr{
+      background: black;
+      color: white;
+    }
+    th {
+      font-size: 0.85em;
+    }
+  }
+
+  & tbody{
+    tr{
+      background: #90ee90;
+    }
+    td {
+      overflow: hidden;
+      text-overflow: clip;
+      white-space: nowrap;
+    }
+  }
+}

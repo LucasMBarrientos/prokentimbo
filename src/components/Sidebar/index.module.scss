@@ -1,0 +1,118 @@
+.sidebar{
+  background: #17573d;
+  width: 150px;
+  color: #fff;
+  margin: 0;
+  padding: 0;
+  float: left;
+  font-size: 14px;
+  text-shadow: 1px 1px 1px #000;
+  & ul {
+    padding-inline-start: 3px;
+    padding-left: 2px;
+    ul {
+      li {
+        a {
+          color: #fff;
+          text-decoration: none;
+          font-size: 16px;
+          line-height: 150%;
+          display: block;
+          white-space: nowrap;
+          overflow: hidden;
+          text-overflow: clip;
+
+          &:hover {
+            background: #213b0a;
+            border-left: 0.5em solid #c2e213;
+          }
+        }
+      }
+    }
+  }
+
+  & li {
+    list-style-type: none;
+  }
+
+  & .itemsMenu li:nth-child(odd) {
+    background-color: #015a1c;
+  }
+
+  & .itemsMenu li:nth-child(even) {
+    background-color: #024817;
+  }
+
+  & h4{
+    box-shadow: inset 0 1px 0 0 #9acc85;
+    background: linear-gradient(to bottom,#74ad5a 5%,#68a54b 100%);
+    background-color: #74ad5a;
+    border: 1px solid #3b6e22;
+    display: block;
+    cursor: pointer;
+    color: #fff;
+    font-size: 15px;
+    font-weight: 700;
+    text-decoration: none;
+    margin-block-start: 0;
+    margin-block-end: 0;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: clip;
+
+    a {
+      display: block;
+      color: #fff;
+      font-size: 17px;
+      font-weight: 700;
+      text-decoration: none;
+      line-height: 22px;
+    }
+  }
+
+  & h3 {
+    font-size: 16px;
+    line-height: 125%;
+    background: #102100;
+    margin-block-end: 0;
+    margin-block-start: 0;
+    color: #c2e213;
+  }
+}
+
+.botonch2 a, .botonch2 {
+  text-align: center;
+  font-size: 13px;
+  background: #2c5e59;
+  color: #fff;
+  font-weight: 700;
+  text-decoration: none;
+  text-shadow: 1px 1px 1px #000;
+  display: block;
+}
+
+.botlink{
+  text-align: center;
+  font-size: 16px;
+  & a{
+    text-decoration: none;
+    color: #c2e213;
+    font-size: 16px;
+  }
+}
+
+
+.materialIcon{
+  font-family: 'Material Icons';
+  font-weight: normal;
+  font-style: normal;
+  line-height: 1;
+  letter-spacing: normal;
+  text-transform: none;
+  display: inline-block;
+  white-space: nowrap;
+  word-wrap: normal;
+  direction: ltr;
+  font-size: 16px;
+}
+
