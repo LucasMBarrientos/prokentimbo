@@ -5,7 +5,7 @@ import { TABLA_PRIMERA } from "../../data/primeraTable";
 import Fixture from "../../components/fixture";
 import styles from "./index.module.scss"
 import Fechas from "../../components/Fechas";
-import {Resultados_Primera} from "./data";
+import {Resultados_Primera} from "../../data/data";
 import { useRouter } from "next/router";
 import FixtureYTablas from "../../components/FixtureYTablas";
 import EquiposYPlanteles from "../../components/EquiposYPlanteles";

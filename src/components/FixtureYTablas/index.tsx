@@ -4,7 +4,7 @@ import { TABLA_PRIMERA } from "../../data/primeraTable";
 import styles from "./index.module.scss"
 import Fechas from "../../components/Fechas";
 import { useRouter } from "next/router";
-import { Resultados_Primera } from "../../pages/primera/data";
+import { Resultados_Primera } from "../../data/data";
 
 const FixtureYTablas = () => {
   const { query, push } = useRouter();

@@ -1,4 +1,4 @@
-import { IResultadosPrimera } from "../../types";
+import { IResultadosPrimera } from "../types";
 
 export const Resultados_Primera: IResultadosPrimera[] = [{
   resultados: [
