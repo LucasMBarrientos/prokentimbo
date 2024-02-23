@@ -1,8 +1,8 @@
 {
-  "name": "prokentimbos",
+  "name": "prokentimbo",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://lucasmbarrientos.github.io/prokentimbos",
+  "homepage": "https://lucasmbarrientos.github.io/prokentimbo",
   "scripts": {
     "dev": "next dev",
     "build": "next build",
