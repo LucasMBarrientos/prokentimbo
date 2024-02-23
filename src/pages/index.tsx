@@ -8,7 +8,7 @@ const Home: NextPage = () => {
   
   return (
     <div className={styles.fixturein} id="fixturein">
-      <Fixture/>
+      <h1>INICIO</h1>
     </div>
     
   );
