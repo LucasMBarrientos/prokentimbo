@@ -1,0 +1,34 @@
+.titulos{
+  font-size: 23px;
+  width: 100%;
+  clear: both;
+  float: left;
+  color: #fff;
+  text-align: center;
+  text-shadow: #000 0.1em 0.1em 0.1em;
+  background: #125e2a;
+  border: 1px solid #000;
+  margin-bottom: 1em;
+}
+
+.wrapper{
+  height: 100px;
+  display: grid;
+  grid-template-areas: "a a a a";
+  grid-gap: 10px;
+  grid-auto-columns: 200px;
+}
+
+
+.root{
+  display: flex;
+  flex-direction: column;
+}
+
+.team{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color:white;
+  cursor: pointer;
+}

@@ -30,34 +30,10 @@ const App = ({ Component, pageProps, emotionCache = clientSideEmotionCache }: My
       <Head>
         <meta content="initial-scale=1.0, width=device-width" name="viewport" />
         <meta charSet="utf-8" />
-        <meta
-          content="Andreani, almacenamiento, tecnologia, empresa, correo, distribucion, logistica"
-          name="keywords"
-        />
-        <meta
-          content="Esta plataforma logística, ubicada en Tigre, fue diseñada para el almacenamiento y distribución de mercaderías de todo tipo de negocios. ¡Apta inversiones!​"
-          name="description"
-        />
-        <title>Pymes</title>
+        <title>PROMIEDO KENTIMBIANO</title>
         <meta content="width=device-width, initial-scale=1, shrink-to-fit=no" name="viewport" />
-        <meta content="Pymes" name="Andreani Pymes" />
         <link href="/favicon.png" rel="icon" type="image/x-icon" />
       </Head>
-      <Script id="googel-tag-manager" strategy="afterInteractive">
-        {`
-            (function (w, d, s, l, i) {
-              w[l] = w[l] || [];
-              w[l].push({ "gtm.start": new Date().getTime(), event: "gtm.js" });
-              var f = d.getElementsByTagName(s)[0],
-                j = d.createElement(s),
-                dl = l != "dataLayer" ? "&l=" + l : "";
-            
-              j.async = true;
-              j.src = "https://www.googletagmanager.com/gtm.js?id=" + i + dl;
-              f.parentNode.insertBefore(j, f);
-            })(window, document, "script", "dataLayer", "GTM-MWG9FN4");
-          `}
-      </Script>
       <Script src="/__ENV.js" strategy="beforeInteractive" />
       
             <Main>

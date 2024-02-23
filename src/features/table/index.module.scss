@@ -30,6 +30,12 @@
 
   & tbody{
     tr{
+      background: #e5e5e5;
+    }
+    tr:nth-child(even){
+      background: #d5d5d5;
+    }
+    tr:first-child{
       background: #90ee90;
     }
     td {

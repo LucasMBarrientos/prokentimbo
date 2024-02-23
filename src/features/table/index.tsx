@@ -9,6 +9,7 @@ import TableRow from '@mui/material/TableRow';
 import Paper from '@mui/material/Paper';
 import { ITeamFixture } from '../../types';
 import styles from "./index.module.scss"
+import { EQUIPOS_PRIMERA } from '../../data/primeraTable';
 
 interface TableFixtureProps {
   teams: ITeamFixture[]
@@ -39,9 +40,9 @@ const TableFixture = (props: TableFixtureProps) => {
           </thead>
           <tbody>
           {teams.map((team,index) => (
-            <tr>
+            <tr className={styles.puesto}>
               <td> { index + 1 }</td>
-              <td>{team.nombre}</td>
+              <td><img width="18px" src={EQUIPOS_PRIMERA.find(x => x.id === team.equipoId).escudo} />{EQUIPOS_PRIMERA.find(x => x.id === team.equipoId).name}</td>
               <td>{team.puntos}</td>
               <td>{team.partidosGanados + team.partidosPerdidos + team.partidosEmpatados}</td>
               <td>{team.partidosGanados}</td>

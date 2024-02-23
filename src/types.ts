@@ -83,7 +83,7 @@ export interface ICoach {
 }
 
 export interface ITeamFixture {
-  nombre: string;
+  equipoId: number;
   puntos: number;
   partidosGanados: number;
   partidosEmpatados: number;
@@ -91,4 +91,25 @@ export interface ITeamFixture {
   golesAFavor: number;
   golesEnContra: number;
   diferenciaDeGoles: number;
+}
+
+export interface Resultado {
+  equipoLocal:number;
+  equipoVisitante:number;
+  golesLocal:number;
+  golesVisitantes:number;
+  goleadoresLocal:string;
+  goleadoresVisitantes:string;
+  finalizado:boolean;
+}
+
+export interface IResultadosPrimera {
+  resultados: Resultado[];
+}
+
+
+export interface IEquipos {
+  id: number;
+  name: string;
+  escudo: string;
 }

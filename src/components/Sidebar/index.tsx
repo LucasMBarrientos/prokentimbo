@@ -36,7 +36,7 @@ const Sidebar = () => {
             <li><a href="primera">Liga Profesional</a></li>
             <li><a href="bnacional">Prim. B Nacional</a></li>
             <li><a href="copaargentina">Copa Argentina</a></li>
-            <li><a href="libertadores">Libertadores</a></li>
+            <li><a href="continental">Continental</a></li>
             <li><a href="championsleague">Champions</a></li>
                     <li><a href="rankingtitulos">Ranking Titulos</a></li>
                   <li><a href="rankinginternacional">Ranking Copas Int</a></li>
@@ -66,7 +66,7 @@ const Sidebar = () => {
           <ul className={styles.itemsMenu}> 
                   <li><a href="rankinginternacional">Ranking Copas Int</a></li>
             <li><a href="mundialclubes">Mundial Clubes</a></li>
-            <li><a href="libertadores">Libertadores</a></li>
+            <li><a href="continental">Continental</a></li>
             <li><a href="sudamericana">Sudamericana</a></li>
                     <li><a href="copasconmebol">+Copas Conmebol</a></li>
             <li><a href="championsleague">Champions</a></li>
