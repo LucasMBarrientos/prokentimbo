@@ -70,7 +70,9 @@ const Primera: NextPage = () => {
         </div>
         <div style={{clear:"both"}}/>
         <div className={styles.fixturein} id="fixturein">
-          <Fixture/>
+          {
+            //<Fixture/>
+          }
           <div className={styles.abajofix}>
             <br/>
             <strong>Estadisticas Fecha</strong>:
