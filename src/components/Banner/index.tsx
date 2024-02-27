@@ -1,12 +1,13 @@
 import React from 'react';
 import styles from "./index.module.scss"
+import logo from "../../images/logo2.jpg"
 
 const Banner = () => {
 
   return (
     <div className={styles.banner}>
-      <a href="//www.promiedos.com.ar/">
-        <img src="https://promiedos.nyc3.cdn.digitaloceanspaces.com/menu/logo2.jpg"/>
+      <a href="/">
+        <img src={logo.src}/>
       </a>
     </div>
   );
